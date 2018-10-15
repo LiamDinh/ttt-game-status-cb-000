@@ -52,6 +52,7 @@ def over?(board)
 end
 
 def winner(board)
+  winning_side = []
   winning_side = won?(board)
   if winning_side == nil
     return nil
