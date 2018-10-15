@@ -54,7 +54,7 @@ end
 def winner(board)
   winning_side = []
   winning_side = won?(board)
-  if winning_side == []
+  if won?(board) == nil 
     return nil
   elsif board[winning_side[0]] == "X"
     return "X"
