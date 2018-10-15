@@ -50,3 +50,14 @@ def over?(board)
     false
   end
 end
+
+def winner(board)
+  winning_side = won?(board)
+  if winning_side[0] == "X"
+    "X"
+  elsif winning_side[0] =="O"
+    "O"
+  elsif winning_side == nil 
+  end
+    
+  end
