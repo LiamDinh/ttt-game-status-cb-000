@@ -58,7 +58,7 @@ def winner(board)
   elsif winning_side[0] =="O"
     return "O"
   elsif winning_side == nil
-    return nil 
+    return nil
   end
 
   end
