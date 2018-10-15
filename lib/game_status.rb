@@ -55,12 +55,11 @@ end
 def winner(board)
   winning_side = []
   winning_side = won?(board)
-  puts winning_side
   if winning_side == nil
     return nil
-  elsif winning_side[0] == "X"
+  elsif board[winning_side[0]] == "X"
     return "X"
-  elsif winning_side[0] =="O"
+  elsif board[winning_side[0]] =="O"
     return "O"
     end
 
