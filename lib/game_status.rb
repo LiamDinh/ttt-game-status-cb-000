@@ -52,7 +52,6 @@ def over?(board)
 end
 
 def winner(board)
-#  winning_side = []
   winning_side = won?(board)
   if won?(board) == false
     return nil
